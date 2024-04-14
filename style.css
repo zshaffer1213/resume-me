@@ -18,3 +18,36 @@ body {
 .heading-g {
     color: #658864;
 }
+
+.new-section {
+    font-size: 50px;
+}
+
+.p-card-head {
+    color: #102C57;
+}
+
+
+.p-cards {
+    max-width: 200px;
+}
+
+a.proj-link {
+    text-decoration: none;
+    color: #658864;
+
+}
+
+.btn-pro {
+    color: #658864;
+    border-color: #658864;
+}
+
+.btn-pro:hover {
+    background-color: #658864;
+    color: #EEEEEE;
+}
+
+.card-hover:hover {
+    background-color:#6588641e ;
+}

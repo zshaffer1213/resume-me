@@ -12,11 +12,13 @@
     <title>Zack Shaffer</title>
 </head>
 <body>
-    <section>
+
+<!-- Landing -->
+  <section>
         <div class="px-4 pt-5 my-5 text-center container">
             <h1 class="display-4 fw-bold  madimi-one-regular heading-g" style="font-size: 80px;">I'm Zack</h1>
                 <div class="col-lg-6 mx-auto">
-                    <p class="lead mb-4">a <u>pro</u><span class="auto-typed"></span></p>
+                    <p class="lead mb-4">A <span class="auto-typed1 heading-g" style="font-size: x-large;"></span></p>
                 </div>
             <div class="container">
                 <div class="container px-5 py-5">
@@ -29,14 +31,15 @@
                     Javascript in the coming weeks!
                 </p>
         </div>
-    </section>
+  </section>
 
-    <section>
-        <div class="container px-4 py-5 text-center align-items-center justify-content-center" id="hanging-icons">
-            <h1 class="pb-5 border-bottom heading-g" style="font-size: 50px;">My Skills</h1>
+<!-- Skills -->
+  <section>
+          <div class="container-fluid px-4 py-5 text-center align-items-center justify-content-center" id="hanging-icons">
+            <h1 class="pb-5 border-bottom heading-g new-section" >My Skills</h1>
             <div class="row g-5 px-5 row-cols-1 container" style="margin-left: 10px;">
               <div class="col d-flex flex-wrap flex-md-nowrap justify-content-center">
-                <div class="fs-4 flex-shrink-0 me-3">
+                <div class="flex-shrink-1 me-3">
                   <img src="./images/coding-gif.gif" alt="cartoon coding" height="150">
                 </div>
                 <div>
@@ -64,15 +67,46 @@
               </div>
             </div>
           </div>
-    </section> 
-
-    <section>
-        <div class="container text-center mb-5">
-            <h2 class="madimi-one-regular heading-g" style="font-size: 50px;">Get In Touch</h2>
-            <p class="pt-3 lead">Intested in talking? Want to colaborate on a project?</p>
-            <button type="button" class="btn btn-outline-success btn-lg" style="font-weight: 600;">Contact Me</button>
-        </div>
     </section>
+
+<!--Projects-->
+    </section>
+      <div class="text-center">
+        <h1 class="heading-g border-bottom border-top py-5 new-section">Projects</h1>
+      </div>
+      <div class="container text-center pt-3">
+        <div class="row justify-content-center gap-4 row-cols-2">
+          <div class="card border-success p-cards col p-0">
+            <a href="https://zshaffer1213.github.io/simon/" class="proj-link">
+            <img class="card-img-top" src="./images/simon.png" alt="Simon Game image">
+            <div class="card-body card-hover">
+              <h5 class="card-title">Simon Game</h5>
+              <p class="card-text" style="color: black;">This is a pattern matching game that gets harder each level. Using Html, CSS, and Javascript.</p>
+            </a>
+                <a href="https://github.com/zshaffer1213/simon/blob/main/game.js">
+                  <button type="button" class="mt-3 btn btn-pro">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="26" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                    </svg>
+                  </button>
+                </a>
+          </div>
+        </div>
+
+          
+      </div>
+
+<!-- Get In Touch   -->
+      <section>
+          <div class="container text-center mb-5">
+              <h2 class="madimi-one-regular heading-g mt-5 border-top pt-5 new-section">Get In Touch</h2>
+              <p class="pt-3 lead">Intested in talking? Want to colaborate on a project?</p>
+              <button type="button" class="btn btn-pro btn-lg" style="font-weight: 600;">Contact Me</button>
+          </div>
+
+  
+
+<!-- footer -->
     <section>
         <footer class="d-flex flex-wrap justify-content-between align-items-center pt-3 my-4 border-top">
             <p class="col-md-4 mb-0 text-body-secondary">© 2024 Zack Shaffer</p>
@@ -94,12 +128,12 @@
     </section>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
-      var typed = new Typed(".auto-typed", {
-        strings: ["fessional", "grammer"],
+      var typed = new Typed(".auto-typed1", {
+        strings: ["Professional", "Programmer", "Web Developer"],
         loop: true,
         typeSpeed: 80,
         backSpeed: 70,
-        smartBackspace: true,
+        smartBackspace: false,
         showCursor: false,
       }) 
     </script>
